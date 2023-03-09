@@ -1,0 +1,15 @@
+{
+  "name": "rough_pad",
+  "version": "1.0.0",
+  "description": "use this project as scratch pad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node interviewScrathpad.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
