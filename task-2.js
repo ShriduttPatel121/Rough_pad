@@ -20,10 +20,9 @@ const tasks = [
 const promises = [];
 const proFillArray = [];
 tasks.forEach((t, idx) => {
-    const index = idx;
     promises.push(RandomPromises(t).then(() => {
         // saving the resolving task order in the array
-        proFillArray.push(index)
+        proFillArray.push(idx)
     }));
 });
 
