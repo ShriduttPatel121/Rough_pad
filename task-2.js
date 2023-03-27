@@ -1,6 +1,5 @@
 function RandomPromises(taskId) {
     const randomNumber = Math.random() * 4500;
-    console.log("🚀 ~ file: task-2.js:3 ~ RandomPromises ~ randomNumber:", randomNumber)
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve()
@@ -28,7 +27,6 @@ tasks.forEach((t, idx) => {
 
 
 await Promise.all(promises);
-console.log("🚀 ~ file: task-2.js:29 ~ run ~ proFillArray:", proFillArray)
 console.log(proFillArray);
 const result = [];
 const set = new Set();
