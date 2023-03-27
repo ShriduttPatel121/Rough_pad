@@ -31,3 +31,4 @@ function genOutput(keys, values) {
 }
 
 console.log(genOutput(keys1, values2));
+
