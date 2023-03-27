@@ -45,10 +45,12 @@ console.log(result);
 }
 
 run();
-
-function shuffle(array) {
-    array.sort(() => Math.random() - 0.5);
-    return array;
+// added method for shuffling the array
+Array.prototype.shuffle = function shuffle() {
+    this.sort(() => Math.random() - 0.5);
+    return this;
 }
 
-console.log(shuffle(["a", "b", "c", "d"]));
+
+const array = ["a", "b", "c", "d"];
+console.log(array.shuffle());
