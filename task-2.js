@@ -30,7 +30,7 @@ await Promise.all(promises);
 console.log(proFillArray);
 const result = [];
 const set = new Set();
-proFillArray.forEach((tc, id) => {
+proFillArray.forEach((tc) => {
     for(let i = 0; i < tc; i++) {
         if(!set.has(i)) {
             result[tc] = -1
