@@ -1,7 +1,6 @@
 const keys1 = ['name', 'address.city.name', 'address.city.pincode', 'address.state'];
 const values2 = ['Joe', 'Ahmedabad', '380001', 'Gujarat']; 
-const Output =
-{
+const Output = {
     name: 'Joe',
     address: {
         city: {

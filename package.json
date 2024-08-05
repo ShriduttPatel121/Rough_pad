@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node task-2.js"
+    "start": "node tasks.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "redis": "^4.7.0"
   }
 }
